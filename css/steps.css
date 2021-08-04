@@ -1,0 +1,17 @@
+
+.steps {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+.steps .box{
+	flex-wrap: 1 1 25rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+.steps .box img{
+	border: 0.7rem solid #fff;
+	border: 50%;
+	box-shadow: 0 .0.5rem 1rem rgba(0, 0, 0, .1);
+}

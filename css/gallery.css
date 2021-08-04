@@ -1,0 +1,43 @@
+.gallery{
+	width: 100%;
+	height: ;
+	background-color: white;
+}
+.heading{
+	text-align: center;
+	font-size: 3.5rem;
+	padding: 1rem;
+	color: black;
+}
+.gallery .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+.gallery .box-container .box{
+	padding: 2rem;
+	border: 0.1rem solid grey;
+	border-radius: 0.5rem;
+	background: #fff;
+	box-shadow: 0 .0.5rem 1rem rgba(0, 0, 0, .1);
+	text-align: center;
+	flex: 1 1 30rem;
+	position: relative;
+	height:;
+	overflow: hidden;
+
+}
+.gallery .box-container .box img{
+	height: 15rem;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 0.5rem;
+}
+.gallery .box-container .box .price{
+	position: absolute;
+	top: 3rem;
+	left: 3rems;
+	padding: 0.5rem 1rem;
+
+}
+

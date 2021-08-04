@@ -1,0 +1,79 @@
+.order{
+	width: 100%;
+	height: ;
+	background-color:;
+	
+
+}
+.order h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+.order .row{
+	display: flex;
+	font-size: wrap;
+	gap: 1.5rem;
+}
+
+.order .row .image{
+	flex: 1 1 30rem;
+}
+.order .row .image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.order .row form{
+	flex: 1 1 50rem;
+	padding: 1rem;
+}
+.order .row form .input-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.order .row form textarea{
+	width: 100%;
+	text-transform: none;
+	resize: none;
+	height:10rem ;
+}
+.order .row form textarea, .order .row form .input-box input{
+	padding: 1rem;
+	margin: 1rem 0;
+	font-size: 0.7rem;
+	color: grey;
+	text-transform: none;
+	border: 1px solid black;
+	border-radius: 0.5rem;
+	width: 49%;
+}
+.order .row form .btn{
+	font-size: 30px;
+	top: 10px;
+	left: 10px;
+	margin: auto;
+	padding: 10px;
+	color: black;
+	width: 40%;
+	border:0.5px solid black;
+	border-radius: 10px;
+}
+.order .row form .btn:hover{
+	background: red;
+}
+.order .row form textarea{
+	width: 100%;
+      }
+
+
+@media(max-width: 700px){
+	.order .row .image{
+	display: none;
+       }
+    .order .row form textarea{
+	width: 100%;
+      }
+}
+	
